@@ -33,10 +33,15 @@ paper/         Project paper (PDF, IEEE style)
 5. Visualise clusters in two dimensions with PCA and profile each cluster in original units.
 
 ## How to Run
-```bash
-pip install -r requirements.txt
-python analysis.py
-```
+**Option 1: Google Colab (recommended)**
+1. Open `notebooks/Country_Clustering_KMeans_DBSCAN_Colab.ipynb` in Google Colab (File, Upload notebook).
+2. Click Runtime, then Run all.
+3. Upload `data/Country-data.csv` when the data-loading cell asks.
+
+Run from the repository root. The script reads `data/Country-data.csv` and writes figures to `figures/` and results to `results/`. The random state is fixed at 42.
+
+## Dataset
+Country Development ("Unsupervised Learning on Country Data"), Kaggle:
 Run from the repository root. The script reads `data/Country-data.csv` and writes figures to `figures/` and results to `results/`. The random state is fixed at 42.
 
 ## Dataset
