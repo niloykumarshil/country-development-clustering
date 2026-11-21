@@ -1,7 +1,7 @@
 # Country Development Clustering using K-means and DBSCAN
 
-**Team Nexus Innovators** | CSE 12th Batch, CCN University of Science & Technology
-Beginner Machine Learning Project (unsupervised learning / clustering)
+**Team Nexus Innovators** | CSE 12th Batch, CCN University of Science & Technology |
+ Machine Learning Project (unsupervised learning / clustering)
 
 ## Overview
 This project groups 167 countries by level of development using nine socio-economic and health indicators: child mortality, exports, health spending, imports, income, inflation, life expectancy, total fertility and GDP per capita. Two clustering algorithms are applied and compared: **K-means** and **DBSCAN**.
