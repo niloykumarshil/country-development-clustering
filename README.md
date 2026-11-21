@@ -20,7 +20,6 @@ This project groups 167 countries by level of development using nine socio-econo
 ```
 data/          Country-data.csv, data-dictionary.csv
 notebooks/     Country_Clustering_KMeans_DBSCAN.ipynb
-analysis.py    Full pipeline: EDA, scaling, K-means, DBSCAN, PCA, figures
 figures/       Generated figures
 results/       Cluster labels, DBSCAN parameter grid, metrics (JSON)
 paper/         Project paper (PDF, IEEE style)
